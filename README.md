@@ -1,14 +1,18 @@
 # CCNA---BGP-Project
 Enterprise Network Design using BGP in Cisco Packet Tracer
 ## Project Overview
-This project simulates a real-world enterprise network connecting multiple departments and branch networks using BGP routing. The network was designed and configured in Cisco Packet Tracer to demonstrate routing, IP management, and basic network security.
+This project simulates two companies connected using BGP (Border Gateway Protocol), while internal routing within each company is managed using OSPF.
 
-## Network Design
+The network demonstrates real-world enterprise routing design with internal and external routing protocols.
+
+## Network Architecture
 The topology includes:
-- Multiple routers connected using BGP
+- Two separate company networks
+- Internal routing using OSPF
+- External routing between companies using BGP
 - Multilayer switches
-- Department-based network segmentation
-- WAN connectivity between sites
+- Department-based VLAN segmentation
+- WAN connectivity between organizations
 
 Departments configured:
 - IT
@@ -17,17 +21,19 @@ Departments configured:
 - Sales
 
 ## Key Configurations Performed
-- Configured BGP routing between routers
+- Configured OSPF for internal routing within each company
+- Configured BGP to connect two different enterprise networks
 - Implemented VLANs for department segmentation
 - Configured Inter-VLAN routing
 - Implemented DHCP for automatic IP address assignment
-- Configured TFTP for configuration backup and file transfer
+- Configured TFTP for configuration backup
 - Applied passwords on routers and switches for security
 - Designed structured IP addressing scheme
 - Verified connectivity using ping and routing tables
 
 ## Technologies Used
 - Cisco Packet Tracer
+- OSPF (Open Shortest Path First)
 - BGP (Border Gateway Protocol)
 - VLAN
 - Inter-VLAN Routing
@@ -36,11 +42,11 @@ Departments configured:
 - Basic Network Security
 
 ## Learning Outcomes
-- Practical understanding of BGP routing behavior
-- Experience in enterprise network planning
-- Hands-on VLAN and IP addressing configuration
-- Implementation of DHCP and TFTP services
-- Basic network device security configuration
+- Understanding of internal vs external routing protocols
+- Practical implementation of OSPF and BGP
+- Enterprise-level IP planning and segmentation
+- Network service configuration (DHCP, TFTP)
+- Device-level security implementation
 
 ## Project Objective
-To build and simulate an enterprise-level network and demonstrate practical CCNA-level routing and network management skills.
+To design and simulate a real-world enterprise network using both internal and external routing protocols, demonstrating practical CCNA-level networking skills.
