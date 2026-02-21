@@ -1,4 +1,4 @@
-# CCNA---BGP-Project
+# CCNA Enterprise Network Project (OSPF + BGP)
 Enterprise Network Design using BGP in Cisco Packet Tracer
 ## Project Overview
 This project simulates two companies connected using BGP (Border Gateway Protocol), while internal routing within each company is managed using OSPF.
